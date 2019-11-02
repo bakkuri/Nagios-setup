@@ -1,0 +1,5 @@
+#!/bin/bash
+yum install httpd
+echo Good Morning >> /var/www/index.html
+service httpd start
+systemctl enable service.httpd
